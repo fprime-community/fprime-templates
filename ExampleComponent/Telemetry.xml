@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:../xml/ISF_Component_Schema.rnc" type="compact"?>
+<!--
+channel telemetry XxML Example
+-->
+<telemetry>
+  <channel id="0" name="Channel1" data_type="F32" format_string = "%4.5f" abbrev="EXMP-0001">
+      <comment>Example channel output</comment>
+  </channel>
+</telemetry>

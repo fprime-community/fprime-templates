@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:../xml/ISF_Component_Schema.rnc" type="compact"?>
+<!--
+Commands XML file for the Example Component Template
+-->
+<commands>
+    <command kind="async" opcode="0x00" mnemonic="Command1">
+        <comment>Example command 1</comment>
+        <args>
+            <arg type="U32" name="Arg1"></arg>
+        </args>
+    </command>
+</commands>

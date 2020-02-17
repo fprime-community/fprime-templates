@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:../xml/ISF_Component_Schema.rnc" type="compact"?>
+
+<!--
+Events XML for the Example component
+-->
+<events>
+    <event id="0" name="Event1" severity="ACTIVITY_LO" format_string="Arg1 is; %lu">
+        <comment>Signal Generator Settings Changed</comment>
+        <args>
+            <arg type="U32" name="Arg1"></arg>
+        </args>
+    </event>
+</events>
